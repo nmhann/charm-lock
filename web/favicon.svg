@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="116" fill="#3E5D49"/>
+  <g transform="translate(256 256) scale(0.95) translate(-256 -265)">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C9935F"/><stop offset="1" stop-color="#9A673F"/>
+    </linearGradient>
+  </defs>
+  <path d="M174 240V178a82 82 0 0 1 164 0v62" fill="none" stroke="#F8F1E4" stroke-width="46" stroke-linecap="round"/>
+  <rect x="108" y="222" width="296" height="234" rx="58" fill="url(#wood)"/>
+  <rect x="108" y="222" width="296" height="234" rx="58" fill="none" stroke="#6B4425" stroke-width="10" opacity=".5"/>
+  <circle cx="256" cy="338" r="74" fill="#F8F1E4" stroke="#7A5232" stroke-width="10"/>
+  <g transform="translate(256 338) scale(4.9) translate(-12 -12)">
+    <path d="M21 13.2A9 9 0 1 1 10.8 3a7 7 0 0 0 10.2 10.2z" fill="#7F97C4"/>
+    <circle cx="9" cy="14" r="1.2" fill="#566E9C" opacity=".6"/><circle cx="12.6" cy="17.4" r=".9" fill="#566E9C" opacity=".6"/>
+  </g></g>
+</svg>

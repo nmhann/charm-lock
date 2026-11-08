@@ -1,0 +1,47 @@
+name: charm_lock
+description: "Charm Lock: a cozy code-breaking game made with Flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Draws the charm and candle pictures from SVG text.
+  flutter_svg: ^2.0.10
+  # Plays the background music and sound effects.
+  audioplayers: ^6.1.0
+  # Saves the best score, gems and the sound on/off setting.
+  shared_preferences: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
+
+  # Bundled fonts (so the app works offline). Open Font License: see
+  # assets/fonts/OFL-*.txt
+  fonts:
+    - family: Grandstander
+      fonts:
+        - asset: assets/fonts/Grandstander-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Grandstander-ExtraBold.ttf
+          weight: 800
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 800
